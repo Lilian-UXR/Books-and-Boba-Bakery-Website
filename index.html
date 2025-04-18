@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Books and Boba Bakery</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <h1>Books and Boba Bakery</h1>
-    <nav class="header-navigation">
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#Boba">Boba</a></li>
-            <li><a class="dropdown-item" href="#Bakery">Bakery</a></li>
-        </ul>
-        <a class="navigation" href="Book-a-Room.html">Book a Room</a>
-        <a class="navigation" href="#Contact">Contact Us</a>
-    </nav>
-    <h2 class="menu" id="Boba">Boba Menu</h2>
-        <h3>Bee Fierce $5.75</h3>
-            <p>brown sugar milk tea with brown sugar boba</p>
-        <h3>Bee Simple $4.85</h3>
-            <p>black tea based milk tea</p>
-        <h3>Bee Kind $4.85</h3>
-            <p>green tea based milk tea</p>
-        <h3>Bee Gentle $5.25</h3>
-            <p>milk tea with a touch of rose</p>
-    <h2 class="menu" id="Bakery">Bakery Menu</h2>
-        <h3>Honey Croissant $4.75</h3>
-            <p>croissant with a touch of honey brushed on</p>
-        <h3>Chocolate Bee $4.50</h3>
-            <p>what is better than chocolate bread? a bee shaped chocolate bread</p>
-        <h3>Honeycomb $5.25</h3>
-            <p>honeycomb shaped waffle</p>
-        <h3>Honey Bee $6.25</h3>
-            <p>honey flavored mini loaf of bread</p>
-    <h2 class="contact" id="Contact">Contact Us</h2>
+    <header>
+        <nav class="navigation">
+            <ul class="navigation-menu">
+                <li><a class="nav-menu" href="#Boba">Boba</a></li>
+                <li><a class="nav-menu" href="#Bakery">Bakery</a></li>
+                <li><a class="nav-menu" href="#Contact">Contact Us</a></li>
+                <li><a class="nav-menu" href="./Book-a-Room.html">Book a Room</a></ul>
+            </ul>
+        </nav>
+    </header>
+    <div class="menu">
+        <h2 id="Boba">Boba Menu</h2>
+            <h3>Bee Fierce $5.75</h3>
+                <p>brown sugar milk tea with brown sugar boba</p>
+            <h3>Bee Simple $4.85</h3>
+                <p>black tea based milk tea</p>
+            <h3>Bee Kind $4.85</h3>
+                <p>green tea based milk tea</p>
+            <h3>Bee Gentle $5.25</h3>
+                <p>milk tea with a touch of rose</p>
+    </div>
+    <div class="menu">
+        <h2 id="Bakery">Bakery Menu</h2>
+            <h3>Honey Croissant $4.75</h3>
+                <p>croissant with a touch of honey brushed on</p>
+            <h3>Chocolate Bee $4.50</h3>
+                <p>what is better than chocolate bread? a bee shaped chocolate bread</p>
+            <h3>Honeycomb $5.25</h3>
+                <p>honeycomb shaped waffle</p>
+            <h3>Honey Bee $6.25</h3>
+                <p>honey flavored mini loaf of bread</p>
+    </div>
+    <h2 id="Contact" class="contact">Contact Us</h2>
     <form>
         <label for="firstname">First name:</label>
             <input type="text" id="firstname">
