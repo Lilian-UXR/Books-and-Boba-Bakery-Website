@@ -1,0 +1,53 @@
+.html {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+.navigation-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    margin: 50px;
+    padding: 15px;
+    background-color: rgba(230, 182, 230, 0.6);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boba-text, .bakery-text {
+    float: left;
+    padding-right: 35px;
+}
+
+.menu.boba-image, .menu.bakery-image {
+    max-width: 25%;
+    max-height: 15%;
+    float: right;
+}
+
+li {
+    padding-left: 25px;
+}
+
+form {
+    display: block;
+    margin: 0;
+}
