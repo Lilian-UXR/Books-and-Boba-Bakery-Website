@@ -8,17 +8,14 @@
 }
 
 h1 {
-    font-size: 2.25rem;
-}
-
-h2 {
     font-size: 1.75rem;
     text-align: center;
 }
 
-h3 {
+h2 {
     font-size: 1.25rem;
 }
+
 
 .logo {
     color: black;
@@ -61,7 +58,7 @@ input, textarea {
     padding: 12px 20px;
 }
 
-.booking-form, .form-format {
+.form-format {
     display: flex;
     justify-content: center;
 }
