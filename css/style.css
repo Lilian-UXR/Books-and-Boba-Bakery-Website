@@ -7,13 +7,16 @@
     font-size: 25px;
 }
 
+
 h1 {
     font-size: 1.75rem;
     text-align: center;
+    font-family: "Winky Rough", sans-serif;
 }
 
 h2 {
     font-size: 1.25rem;
+    font-family: "Winky Rough", sans-serif;
 }
 
 
@@ -23,6 +26,7 @@ h2 {
     font-size: 2.25rem;
     font-weight: bold;
     margin: 1rem 0 1rem 1rem;
+    font-family: "Winky Rough", sans-serif;
 }
 
 .navigation-menu {
@@ -31,6 +35,12 @@ h2 {
     list-style: none;
     display: flex;
     justify-content: flex-end;
+    font-family: "Winky Rough", sans-serif;
+}
+
+.nav-menu {
+    color: black;
+    font-size: 1.5rem;
 }
 
 .row {
@@ -71,7 +81,7 @@ input, textarea {
     cursor: pointer;
     box-sizing: content-box;
     font-size: 1rem;
-    padding: 10px 36px 10px 25px;
+    padding: 10px 3px 10px 3px;
 }
 
 [type=submit]:hover {
